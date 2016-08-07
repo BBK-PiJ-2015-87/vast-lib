@@ -37,6 +37,9 @@
                 </executions>
                 <configuration>
                     <packageName>com.famlabs.vast</packageName>
+                    <outputDirectory>
+                        src/main/generated-sources
+                    </outputDirectory>
                     <sources>
                         <source>
                             src/main/resources/vast3_draft.xsd
